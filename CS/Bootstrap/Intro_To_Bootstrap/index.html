@@ -1,18 +1,146 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <title>Bootstrap demo</title>
-    <!-- 1. Add Bootstrap Link Here -->
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <p>This is a very simple website, with minimal CSS styling. Let's fix that!</p>
-    <button class="button-style">Click Me!</button>
-    <!-- 2. Add A Bootstrap Button Here -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devin's Corner</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <link rel="stylesheet" href="style.css">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Devin's Corner</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Life's Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Achieved</a>
+                    </li>
+                    <!-- Blank nav link for the genius to complete -->
+                    <li class="nav-item">
+                      <!-- Genius work starts here -->
+                        <a class="nav-link" href="#"> Current Duties</a>
+                      <!-- Genius work ends here -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     <!-- Navbar End -->
 
-    <!-- 3. Add Your Additional Bootstrap Element Here -->
-  </body>
+    <!-- Hero Section -->
+    <div class="jumbotron text-center bg-primary text-white py-5">
+        <h1>Welcome To Devin's Corner!</h1>
+        <p>Dev's Corner is a place for people to really understand what it is high school teens go through on a day to day basis when it comes to leadership postions. </p>
+        <p>    "It's a hard Knock life for us - Jay-Z"</p>
+        <!-- Blank button for the student to complete -->
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">
+            <!-- Complete this button text --> 
+            Don't know? Come find out!
+        </button>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">We see you came to find out more!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Genius work starts here -->
+                    <p> <!-- Enter modal body text --> 
+                        Devin is a fresh 17 year old who has various leadership roles on his campus at Hercules High School. Devin is Vice President of his Class (2026). He was also been awarded with becoming ASB Tresurer for the 2025-2026 school year. He is apart of Climate Team where a group of at least 3 students team up with Admin and Support Staff to help give student advice on how to fix the campus. He is a representaitive for Hercules High Schools Black Student Union as well as a secretary for Unicef Club as well. Devin is also a team manager for basketball and a member of School Site council where we plan the schools budget and work on the SPSA. There's a lot more where this came from. 
+                    </p>
+                    <!-- Genius work ends here-->
+                </div>
+                <div class="modal-footer">
+                    <!-- Genius work starts here -->
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> <!-- Complete this button text --> Close</button>
+                    <!-- Genius work ends here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal End -->
+
+    <!-- Cards Section -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Card #1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG_3342.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">The Journey of Becoming Who I am</h5>
+                        <p class="card-text">Becoming who I am for sure was not an easy journey. Defining your leadership skills is just as hard as finding them. The easiest part is maintain your leadership status.. at least in my opinion.</p>
+                        <!-- Blank button for the genius to complete -->
+                        <a href="#" class="btn btn-primary">
+                          <!-- Complete this button text --> 
+                           Open Me!
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card #1 End -->
+        
+            <!-- Card #2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG_6781.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <!-- Genius work starts here -->
+                        <h5 class="card-title"> <!-- Enter card title --> How are you in so many things?  </h5>
+                        <p class="card-text"> <!-- Enter card text --> In all honesty, I can't even being to explain how I got into all of these programs and commities. I just know that somehow I manage them as best as I can and it's never really hard. It is fustrating, but hard isn't the word I would choose to describe my comittments.</p>
+                        <a href="#" class="btn btn-primary">
+                          <!-- Complete this button text --> 
+                           Open Me!
+                        </a>
+    
+                      <!-- Genius work ends here -->
+                    </div>
+                </div>
+            </div>
+            <!-- Card #2 End -->
+        </div>
+    </div>
+     <!-- Cards Section End -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+<!-- Independant Work-->
+  <div class="vstack">
+    <div class="p-1">Life as the face of the distict</div>
+    <div class="p-2">Working the ways of being the "only" child</div>
+    <div class="p-3">How life is different from before to now</div>
+    <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown link
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">School</a></li>
+          <li><a class="dropdown-item" href="#">Home</a></li>
+          <li><a class="dropdown-item" href="#">Ya life</a></li>
+        </ul>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+<div class="btn-group" role="group" aria-label="Basic mixed styles example">
+    <button type="button" class="btn btn-danger">Left</button>
+    <button type="button" class="btn btn-warning">Middle</button>
+    <button type="button" class="btn btn-success">Right</button>
+  </div>
+</body>
 </html>
