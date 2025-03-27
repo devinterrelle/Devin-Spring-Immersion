@@ -1,0 +1,23 @@
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+}
+
+.btn.btn-secondary{
+background-color: white;
+font-family: 'Courier New', Courier, monospace;
+color: black;
+background: white;
+}
+
+.modal-body{
+    font-style: italic;
+}
+.dropdown-menu{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.jumbotron.text-center.bg-primary.text-white.py-5 {
+    font-family: 'Courier New', Courier, monospace;
+}

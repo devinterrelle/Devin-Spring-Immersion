@@ -3,14 +3,15 @@ body {
   }
   
 h1 {
-    color: #999;
+    color: aquamarine;
+
 }
 
 p {
-    color: white;
+    color: black;
 }
 
 .button-style {
-    color: orange;
+    color: aqua;
     border-radius: 30px;
 }
